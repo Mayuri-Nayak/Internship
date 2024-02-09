@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Method</title>
+    <script>
+        
+        var a = new Date();
+        document.write(a + "<br>");
+
+        var b = new Date();
+        document.write(b.toDateString() + "<br>"); //toDateString(gives in short and readable format)
+
+        var c = new Date();
+        document.write(c.getDate() + "<br>"); //getDate (give simple Date Only)
+
+        var d = new Date();
+        document.write(d.getFullYear() + "<br>"); //getFullYear
+
+        var e = new Date();
+        document.write(e.getMonth() + "<br>"); //getMonth
+
+        var f = new Date();
+        document.write(f.getDay() + "<br>"); //getDay(gives week in number)
+
+        var g = new Date("Feb 27 2002"); //second method of getDate
+        document.write(g.getDay()+ "<br>")
+
+        var h = new Date();
+        document.write(h.getHours() + "<br>"); //getHours
+
+        var i = new Date();
+        document.write(i.getMinutes() + "<br>"); //getMinutes
+
+
+        var j = new Date();
+        document.write(j.getMilliseconds() + "<br>"); //getMilliseconds
+
+
+        var k = new Date();
+        k.setDate( 27 ); //setDate
+        document.write(k + "<br>");
+
+        var l = new Date();
+        l.setFullYear(2025); //setFullYear
+        document.write(l + "<br>");
+
+        var m = new Date();
+        m.setMonth(5); //setMonth
+        document.write(m + "<br>");
+
+        var n = new Date();
+        n.setHours(1);  //setHours
+        document.write(n + "<br>");
+
+        var o = new Date();
+        o.setMinutes (20); //setMinutes
+        document.write(o+ "<br>");
+
+        var p = new Date();
+        p.setSeconds(30); //setSeconds
+        document.write(p + "<br>");
+
+        var q = new Date();
+        q.setMilliseconds(40); //setMilliseconds
+        document.write(q + "<br>");
+
+
+
+
+        
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

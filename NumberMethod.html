@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Method Javascript</title>
+    <script>
+        
+        
+        var a = "99";
+        var num = Number(a);   //Number
+        document.write(num+10 +"<br>");
+
+
+        var b = true;   //true or false (gives number 1 or 0)
+        var num = Number(b);  //Number
+        document.write(num +"<br>");
+
+
+        var c = "10.34";
+        var num = parseInt(c); //parseInt (gives value before Point only integer)
+        document.write(num +"<br>");
+
+
+        var d = "11.33";
+        var num = parseFloat(d); //parseFloat
+        document.write(num +"<br>");
+
+
+        var e = "100";
+        var num = isFinite(e); //isFinite (returns true or false)
+        document.write(num +"<br>");
+
+
+        var f = 12;
+        var num = Number.isInteger(f); //Number.isInteger(returns true or false)
+        document.write(num +"<br>");
+
+
+        var g = 5.56789;
+        var num = g.toFixed(1); //toFixed(according to the parameter number it will give result)
+        document.write(num +"<br>");
+
+
+        var h = 6.8907;
+        var num = h.toPrecision(2); //toPrecision (gives round figure of number)
+        document.write(num +"<br>");
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

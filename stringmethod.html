@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String methods Javascript</title>
+    <script>
+
+
+            var str = "Javascript is a Great Language";
+            var a = str.length; //length
+            document.write(a + "<br>");
+
+
+            var b = str.toLowerCase();  //toLowerCase
+            document.write(b + "<br>");
+
+
+            var c = str.toUpperCase();  //toUpperCase
+            document.write(c + "<br>");
+
+
+            var d = str.includes("LanGuage"); //includes(true or false)
+            document.write(d + "<br>");
+
+            
+            var e = str.startsWith("Javascript"); //startsWith (true or false)
+            document.write(e + "<br>");
+
+
+            var f = str.endsWith("is"); //endsWith (true or false)
+            document.write(f + "<br>");
+
+
+            var g = str.search("Great"); //search(gives index value position)
+            document.write(g +"<br>");
+
+
+            var f = str.match(/a/g); //match (g-globally)(how many times it exists)
+            document.write(f + "<br>");
+
+
+            var i = str.indexOf("is"); // indexOf(start)
+            document.write(i + "<br>");
+
+
+            var j = str.lastIndexOf("L"); //lastIndexOf(end)
+            document.write(j + "<br>");
+
+
+            var k = str.replace("Javascript","PhP"); //replace (word)
+            document.write(k +"<br>");
+            
+
+            var str3 = "                   Javascript"; //trim (remove space)
+            var l = str3.trim();
+            alert(l); 
+
+
+            var m = str.charAt(8);  //charAt(shows element on which index it is)
+            document.write(m +"<br>");
+
+
+            var n = str.charCodeAt(i); //charCodeAt ( gives result of Ascii Code)
+            document.write(n +"<br>");
+
+
+            /*var o = str.fromcharCode(a); //fromCharCode ( gives string from Ascii code)
+            document.write(o +"<br>"); */
+
+            var str1 = "Tanu";
+            var str2 = "Nayak";
+            var p = str1.concat(str2); //concat(join string)
+            document.write(p +"<br>");
+
+
+            var q = str.split("Great"); //split(gives space and the element written in () will be remove)
+            document.write(q +"<br>");
+
+
+            var r = str.repeat(5);  //repeat
+            document.write(r +"<br>");
+
+
+            var s = str.slice(3,10); //slice (remove the element and give result according to the index and start accounting index from 0, slicing eg.3)
+            document.write(s +"<br>");
+
+
+            var t = str.substr(3,5); //substr (same as slice)
+            document.write(t +"<br>");
+
+
+            var u = str.substring(3,7); //substring ( gives proper index type element with actual index )
+            document.write(u +"<br>");
+
+
+            var v = str.toString(); // toString (gives in string) 
+            document.write(v +"<br>");
+            
+
+            var w = str.valueOf(); //valueOf (gives string)
+            document.write(w +"<br>");
+
+
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
